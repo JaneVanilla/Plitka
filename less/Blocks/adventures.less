@@ -1,0 +1,63 @@
+.adventures {
+	background: #E6E2E7;
+}
+.adventures__left {
+	float: left;
+	width: 60%;
+	padding-top: 100px;
+	color: #3C3C3C;
+	font-family: 'Tahoma';
+}
+.adventures__title {
+	text-align: center;
+}
+.adventures__right {
+	float: right;
+	width: 40%;
+	
+}
+.adventures__right img {
+		height: 650px;
+	}
+.adventures__img {
+	margin-right: 80px;
+	display: inline-block;
+	position: relative;
+	bottom: -15px;
+}
+.adventures__list {
+	list-style-type: none;
+	width: 50%;
+	margin: 0 auto;
+}
+.adventures__items {
+	margin-bottom: 30px;
+}
+@media (max-width: 1200px) {
+	.adventures__right {
+		display: inline-block;
+		width: 50%;
+		
+	}
+	.adventures__right img {
+		height: 400px;
+	}
+	.adventures__left {
+		width: 50%;
+		padding-top: 40px;
+	}
+	.adventures__img {
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.adventures__right {
+		display: none;
+	}
+	.adventures__left {
+		float: none;
+		width: 100%;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
